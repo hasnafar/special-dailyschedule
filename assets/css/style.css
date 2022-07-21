@@ -1,0 +1,87 @@
+/* Webpage Theme */
+:root{
+  --black: black;
+  --white: white;
+}
+
+/* HTML Tags Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: var(--black);
+  border-left: 1px solid var(--black);
+  padding: 10px;
+}
+
+/* Main Header Properties */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: var(--black);
+  border-radius: 0;
+  border-bottom: 10px solid var(--black);
+}
+
+/* Input text area properties */
+.description {
+  white-space: pre-wrap;
+}
+
+/* Time block properties */
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* Row properties */
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid var(--white);
+}
+
+/* Hour column properties */
+.hour {
+  background-color: var(--white);
+  color: var(--black);
+  border-top: 1px dashed var(--black);
+}
+
+/* Past Time-block Properties */
+.past {
+  background-color: #d3d3d3;
+  
+}
+
+/* Current Time-block Properties */
+.present {
+  background-color: #ff6961;
+  
+}
+
+/* Future Time-block Properties */
+.future {
+  background-color: #77dd77;
+  
+}
+
+/* Save Button properties */
+.saveBtn {
+  border-left: 1px solid var(--black);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: var(--white);
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
