@@ -53,6 +53,5 @@ $(window).on('load', function(){
       }
 });
 
-
 timeSetter();
 
