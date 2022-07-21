@@ -5,8 +5,8 @@ I used the starter code and added Bootstrap classes plus time blocks to create a
 
 
 ## Submission
-GitHub Repo URL: https://github.com/hasnafar/special-scheduler
-Deployed URL: https://hasnafar.github.io/special-scheduler/
+GitHub Repo URL: https://github.com/hasnafar/special-dailyschedule
+Deployed URL: https://hasnafar.github.io/special-dailyschedule/
 
 
 ![Website Screenshot](Screenshot.png) 
